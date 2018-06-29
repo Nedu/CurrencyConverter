@@ -14,5 +14,28 @@
             <a class="navbar-brand" href="#">Currency Converter</a>
         </nav>
     </header>
+    <main>
+        <form>
+            <div class="form-group">
+                <label for="fromCurrency">Select Currency to convert from:</label>
+                <div>
+                    <select name="from" id="fromCurrency">
+                        <option value="">From</option>
+                    </select>
+                    <input type="number" value="0" min="0" id=""/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="toCurrency">Select Currency to convert to:</label>
+                <div>
+                    <select name="to" id="toCurrency">
+                        <option value="">To</option>
+                    </select>
+                    <input type="number" readonly="" />
+                </div>
+            </div>
+            <input type="submit" value="Convert" id="submitButton">
+        </form>
+    </main>
 </body>
 </html>
