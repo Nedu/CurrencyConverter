@@ -1,17 +1,25 @@
 importScripts('./src/js/idb.js');
 importScripts('./src/js/db.js');
 
+let repository = "/currencyConverter/public/";
 let CACHE_STATIC_NAME = 'static-v1';
 let CACHE_DYNAMIC_NAME = 'dynamic-v2';
 let STATIC_FILES = [
     '/',
+    repository,
     './index.html',
     '/index.html',
+    `${repository}index.html`,
     './src/js/app.js',
+    `${repository}js/app.js`,
     './src/js/idb.js',
+    `${repository}js/idb.js`,
     './src/js/promise.js',
+    `${repository}js/promise.js`,
     './src/js/fetch.js',
+    `${repository}js/fetch.js`,
     './src/css/app.css',
+    `${repository}css/app.css`,
     'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'
 ]
 
