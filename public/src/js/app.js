@@ -22,7 +22,7 @@ window.onload = () => {
 const registerServiceWorker =  async () => {
     if ('serviceWorker' in navigator) {
             navigator.serviceWorker
-            .register('/sw.js')
+            .register('/currencyConverter/public/sw.js')
             .then(() => {
                 console.log('Service worker registered!');
             })
