@@ -5,12 +5,13 @@ let CACHE_STATIC_NAME = 'static-v1';
 let CACHE_DYNAMIC_NAME = 'dynamic-v2';
 let STATIC_FILES = [
     '/',
+    './index.html',
     '/index.html',
-    '/src/js/app.js',
-    '/src/js/idb.js',
-    '/src/js/promise.js',
-    '/src/js/fetch.js',
-    '/src/css/app.css',
+    './src/js/app.js',
+    './src/js/idb.js',
+    './src/js/promise.js',
+    './src/js/fetch.js',
+    './src/css/app.css',
     'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'
 ]
 
