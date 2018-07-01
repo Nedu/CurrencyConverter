@@ -1,7 +1,7 @@
 importScripts('./src/js/idb.js');
 importScripts('./src/js/db.js');
 
-let repository = "/currencyConverter/public/";
+let repository = "/CurrencyConverter/public/";
 let CACHE_STATIC_NAME = 'static-v1';
 let CACHE_DYNAMIC_NAME = 'dynamic-v2';
 let STATIC_FILES = [
